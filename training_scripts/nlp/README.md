@@ -60,6 +60,14 @@ number. In this example, v4.35.2 is used.
 ## Training Data
 Please use the data.json with contents in the following way:
 
+The command below with decompress the data we use. 
+
+```console
+./decompress_data.sh
+```
+
+or you can create your own data for training purposes:
+
 ```
 {"sentence1": "idiot  stop your childish wiki stalking idiot", "label": "__label__bullying_hate"}
 {"sentence1": "places to get sniper rifle ammo fallout 3 gamefaqs", "label": "__label__clean"}
