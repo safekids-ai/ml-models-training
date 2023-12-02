@@ -1,4 +1,9 @@
 {
+  "name": "@safekids-ai/ml-models-binary",
+  "version": "1.0.0",
+  "scripts": {
+    "release": "release-it"
+  },
   "devDependencies": {
     "release-it": "^17.0.0"
   }
